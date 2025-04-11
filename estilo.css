@@ -149,16 +149,16 @@ img {
     font-size: 20px;
     font-family: "Lato", cursive;
     color: #fff;
-    list-style-type: upper-roman;
     text-shadow: 2px 2px 4px #000;
     line-height: 1.8em;
+    list-style-type: disc;
     list-style-position: inside;
 }
 
 #certif li {
-    float: none;
     display: list-item;
     margin-bottom: 10px;
+    float: none;
     padding-left: 0;
     text-indent: 0;
 }
