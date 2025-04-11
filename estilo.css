@@ -194,7 +194,7 @@ footer img {
     text-shadow: 1px 1px 3px black;
 }
 
-.portfolio-section img {
+.work-section img {
     max-height: 300px;
     width: auto;
     height: auto;
@@ -205,7 +205,7 @@ footer img {
 }
 
 @media screen and (max-width: 600px) {
-    .portfolio-section img {
+    .work-section img {
         max-height: 200px;
     }
 }
