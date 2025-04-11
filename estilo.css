@@ -232,14 +232,29 @@ img {
     background-position: center;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    padding-right: 50px;
+    justify-content: center; /* ← centramos en lugar de alinear a la derecha */
+    padding: 0 20px;
     color: #fff;
     text-shadow: 2px 2px 4px #000;
     font-family: "Lato", cursive;
+    text-align: center;
 }
 
 .hero-about h2 {
-    font-size: 48px;
+    font-size: 48px; /* o menos si aún se ve grande */
     margin: 0;
+}
+
+#texto {
+    padding: 25px;
+    margin: 0 auto; /* centrado */
+    max-width: 900px; /* para evitar que se extienda demasiado */
+    background-color: #004bad;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Lato", cursive;
+    line-height: 30px;
+    box-sizing: border-box;
 }
