@@ -177,3 +177,17 @@ footer a {
     text-decoration: none;
     text-shadow: 2px 2px 4px #000;
 }
+
+.selfie-gbc {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.selfie-gbc img {
+    image-rendering: pixelated;
+    width: 120px;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
