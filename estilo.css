@@ -188,6 +188,11 @@ p {
     text-decoration: none;
     font-size: 18px;
     font-family: "Lato", sans-serif;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #04adbf;
 }
 
 .work-section {
@@ -217,3 +222,19 @@ p {
     transform: scale(1.05);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
+
+/* Efecto suave para los links del menú */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilo de las secciones */
+section {
+    padding: 60px 0;
+    margin: 20px 0;
+}
+
+#web, #3d, #digital-media {
+    text-align: center;
+}
+
