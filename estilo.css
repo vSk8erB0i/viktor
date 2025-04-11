@@ -24,20 +24,15 @@ header {
 }
 
 h1 {
-    margin: 0px;
     color: #fff;
     font-family: "Lato", cursive;
     font-size: 22px;
     text-align: center;
-    vertical-align: middle;
     text-shadow: 2px 2px 4px #000;
 }
 
 ul {
     list-style: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
 }
 
 li {
@@ -47,9 +42,8 @@ li {
 }
 
 li a {
-    float: left;
     display: block;
-    color: #ffff;
+    color: #fff;
     font-size: 20px;
     text-decoration: none;
     font-family: "Lato", cursive;
@@ -213,8 +207,13 @@ p {
 
 .work-section .gallery img {
     width: 100%;
-    height: 200px;
+    height: 220px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-section .gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
