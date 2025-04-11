@@ -179,7 +179,9 @@ footer a {
 }
 
 .selfie-gbc {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 20px 0;
 }
 
