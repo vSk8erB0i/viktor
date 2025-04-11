@@ -145,20 +145,22 @@ img {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    list-style-type: upper-roman;
-    font-size: 20px;
-    color: #fff;
-    font-family: "Lato", cursive;
     padding: 14px 16px;
+    font-size: 20px;
+    font-family: "Lato", cursive;
+    color: #fff;
+    list-style-type: upper-roman;
     text-shadow: 2px 2px 4px #000;
-    line-height: 1.8em; /* ✅ Mejora el espaciado vertical */
-    overflow-wrap: break-word; /* ✅ Evita desbordamiento de texto largo */
+    line-height: 1.8em;
+    list-style-position: inside;
 }
 
 #certif li {
-    margin-bottom: 12px; /* ✅ Separación entre elementos */
-    padding-left: 1.2em; /* ✅ Espacio para que no se sobreponga con el número romano */
-    text-indent: -1.2em; /* ✅ Alinea bien el texto con el numeral */
+    float: none;
+    display: list-item;
+    margin-bottom: 10px;
+    padding-left: 0;
+    text-indent: 0;
 }
 
 footer {
