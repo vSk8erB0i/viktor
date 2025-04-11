@@ -193,3 +193,19 @@ footer img {
     font-family: "Lato", cursive;
     text-shadow: 1px 1px 3px black;
 }
+
+.portfolio-section img {
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio-section img {
+        max-height: 200px;
+    }
+}
