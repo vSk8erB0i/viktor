@@ -9,8 +9,6 @@ body {
     font-family: "Lato", cursive;
     color: #fff;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 header {
@@ -19,9 +17,7 @@ header {
 }
 
 #encabezado {
-    margin: 0;
-    display: block;
-    color: #ffff;
+    color: #fff;
     font-size: 22px;
     text-decoration: none;
     font-family: "Lato", cursive;
@@ -31,8 +27,9 @@ header {
 }
 
 main {
-    flex: 1;
     background-color: #004bad;
+    padding: 0;
+    margin: 0;
 }
 
 section {
@@ -49,7 +46,6 @@ section {
     text-shadow: 2px 2px 4px #000;
     text-align: left;
     font-size: 20px;
-    font-family: "Lato", cursive;
     line-height: 30px;
 }
 
@@ -63,6 +59,7 @@ section {
     justify-content: center;
     color: #fff;
     text-shadow: 2px 2px 4px #000;
+    font-family: "Lato", cursive;
 }
 
 .hero-about h2 {
@@ -73,6 +70,9 @@ section {
 footer {
     background-color: #004bad;
     padding: 14px 16px;
+    font-family: "Lato", cursive;
+    font-size: 20px;
+    text-align: center;
 }
 
 #contacto {
@@ -106,7 +106,6 @@ img {
     text-shadow: 2px 2px 4px #000;
     text-align: center;
     font-size: 20px;
-    font-family: "Lato", cursive;
     line-height: 30px;
 }
 
@@ -117,10 +116,10 @@ img {
     list-style-type: upper-roman;
     font-size: 20px;
     color: #fff;
-    font-family: "Lato", cursive;
     padding: 14px 16px;
     text-shadow: 2px 2px 4px #000;
     line-height: 50px;
+    font-family: "Lato", cursive;
 }
 
 ul {
@@ -131,19 +130,14 @@ ul {
 }
 
 li {
-    margin: 0;
-    padding: 0;
     float: left;
     color: #fff;
     font-size: 15px;
 }
 
 li a {
-    padding: 0;
-    margin: 0;
-    float: left;
     display: block;
-    color: #ffff;
+    color: #fff;
     font-size: 20px;
     text-decoration: none;
     font-family: "Lato", cursive;
