@@ -15,10 +15,8 @@ body {
 
 /* Estilos para el header */
 header {
-    margin: 0;
+    background-color: #1300bb; /* color más oscuro como el original */
     padding: 0px;
-    box-sizing: border-box;
-    background-color: #1300bb;
 }
 
 h1 {
