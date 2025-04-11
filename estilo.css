@@ -15,32 +15,44 @@ body {
 
 /* Estilos para el header */
 header {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
     background-color: #1300bb;
-    padding: 20px;
-    text-align: center;
 }
 
 h1 {
-    color: white;
-    font-size: 32px;
-    margin: 0;
+    margin: 0px;
+    color: #fff;
+    font-family: "Lato", cursive;
+    font-size: 22px;
+    text-align: center;
+    vertical-align: middle;
     text-shadow: 2px 2px 4px #000;
 }
 
-nav ul {
+ul {
     list-style: none;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+li {
+    float: left;
+    color: #fff;
+    font-size: 15px;
 }
 
-nav ul li a {
-    color: white;
+li a {
+    float: left;
+    display: block;
+    color: #ffff;
+    font-size: 20px;
     text-decoration: none;
-    font-size: 18px;
+    font-family: "Lato", cursive;
+    text-align: center;
+    padding: 14px 16px;
     text-shadow: 2px 2px 4px #000;
 }
 
@@ -112,16 +124,16 @@ p {
 /* Estilo para el footer */
 footer {
     background-color: #1300bb;
-    color: white;
+    width: 100%;
+    font-size: 20px;
     text-align: center;
-    padding: 20px;
+    padding: 14px 16px;
+    font-family: "Lato", cursive;
 }
 
 footer a {
     color: #04ADBF;
     text-decoration: none;
-    margin: 0 10px;
-    font-size: 18px;
     text-shadow: 2px 2px 4px #000;
 }
 
