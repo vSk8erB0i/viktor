@@ -151,7 +151,14 @@ img {
     font-family: "Lato", cursive;
     padding: 14px 16px;
     text-shadow: 2px 2px 4px #000;
-    line-height: 50px;
+    line-height: 1.8em; /* ✅ Mejora el espaciado vertical */
+    overflow-wrap: break-word; /* ✅ Evita desbordamiento de texto largo */
+}
+
+#certif li {
+    margin-bottom: 12px; /* ✅ Separación entre elementos */
+    padding-left: 1.2em; /* ✅ Espacio para que no se sobreponga con el número romano */
+    text-indent: -1.2em; /* ✅ Alinea bien el texto con el numeral */
 }
 
 footer {
