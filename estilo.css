@@ -15,8 +15,11 @@ body {
 
 /* Estilos para el header */
 header {
-    background-color: #1300bb; /* color más oscuro como el original */
-    padding: 0px;
+    position: relative;
+    z-index: 10;
+    background-color: #1300bb;
+    padding: 10px 0;
+    text-align: center;
 }
 
 h1 {
@@ -122,11 +125,10 @@ p {
 /* Estilo para el footer */
 footer {
     background-color: #1300bb;
-    width: 100%;
-    font-size: 20px;
     text-align: center;
-    padding: 14px 16px;
-    font-family: "Lato", cursive;
+    padding: 20px;
+    position: relative;
+    z-index: 10;
 }
 
 footer a {
