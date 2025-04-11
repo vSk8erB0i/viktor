@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-/* Estilos generales */
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +10,10 @@ body {
     font-family: "Lato", sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
+    position: relative;
+    overflow-x: hidden;
 }
 
-/* Estilos para el header */
 header {
     position: relative;
     z-index: 10;
@@ -57,14 +57,14 @@ li a {
     text-shadow: 2px 2px 4px #000;
 }
 
-/* Estilo para las secciones */
 main {
+    position: relative;
+    z-index: 2;
     display: block;
     width: 100%;
     padding: 40px 10%;
 }
 
-/* Sección de la selfie GameBoy Camera */
 .selfie-gbc {
     display: flex;
     justify-content: center;
@@ -73,14 +73,13 @@ main {
 
 .selfie-gbc img {
     image-rendering: pixelated;
-    width: 120px; /* Ajusta el tamaño según prefieras */
+    width: 120px;
     height: auto;
     border: 2px solid #fff;
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilo de las secciones de texto */
 .texto-section {
     margin-bottom: 40px;
 }
@@ -95,7 +94,6 @@ p {
     color: #333;
 }
 
-/* Estilo para la lista de Skills & Interests */
 #certif {
     list-style: none;
     padding: 0;
@@ -107,7 +105,6 @@ p {
     color: #333;
 }
 
-/* Sección de la imagen de perfil */
 #imagen {
     display: flex;
     justify-content: center;
@@ -122,13 +119,12 @@ p {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilo para el footer */
 footer {
+    position: relative;
+    z-index: 10;
     background-color: #1300bb;
     text-align: center;
     padding: 20px;
-    position: relative;
-    z-index: 10;
 }
 
 footer a {
@@ -147,13 +143,12 @@ footer img {
     border-radius: 8px;
 }
 
-/* Estilo para el contacto */
 #contacto a {
     margin: 0 10px;
 }
 
 #fondo {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -162,7 +157,6 @@ footer img {
     z-index: 0;
 }
 
-/* Capa de sombra sobre el fondo */
 .capa {
     position: absolute;
     top: 0;
@@ -171,5 +165,5 @@ footer img {
     height: 100%;
     background-color: black;
     opacity: 0.5;
-    mix-blend-mode: overlay;
+    z-index: 1;
 }
