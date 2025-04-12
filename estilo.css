@@ -142,12 +142,12 @@ p {
 
 #certif {
     list-style: none;
-    padding: 0;
+    padding: 5;
 }
 
 #certif li {
-    margin-bottom: 10px;
-    font-size: 16px;
+    margin-bottom: 15px;
+    font-size: 20px;
     color: #333;
 }
 
